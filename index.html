@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Projects for Beginners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #111827;
+      font-family: 'Space Grotesk', sans-serif;
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      text-align: center;
+      padding: 56px 24px 36px;
+      background: linear-gradient(180deg, #1e1b4b 0%, #111827 100%);
+      border-bottom: 1px solid #1e2a3a;
+    }
+
+    header h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #9ca3af;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 14px;
+      background: #1e3a5f;
+      color: #60a5fa;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+
+    main {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #1f2937;
+      border: 1px solid #374151;
+      border-radius: 12px;
+      padding: 24px 16px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #6366f1;
+      box-shadow: 0 6px 24px rgba(99, 102, 241, 0.25);
+    }
+
+    .card .emoji {
+      font-size: 2.25rem;
+      line-height: 1;
+    }
+
+    .card h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #f3f4f6;
+      line-height: 1.3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 24px;
+      color: #6b7280;
+      font-size: 0.8rem;
+      border-top: 1px solid #1f2937;
+    }
+
+    footer a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚡ JavaScript Projects</h1>
+    <p>A collection of beginner-friendly Vanilla JS projects</p>
+    <span class="badge">26 projects · No frameworks · Open source</span>
+  </header>
+
+  <main>
+    <div class="grid">
+      <a class="card" href="AJAX%20Project/Ajax.html">
+        <span class="emoji">🌐</span>
+        <h3>AJAX Project</h3>
+      </a>
+      <a class="card" href="BMI/index.html">
+        <span class="emoji">💪</span>
+        <h3>BMI Calculator</h3>
+      </a>
+      <a class="card" href="Calculator/index.html">
+        <span class="emoji">🧮</span>
+        <h3>Calculator</h3>
+      </a>
+      <a class="card" href="Currency%20Converter/index.html">
+        <span class="emoji">💱</span>
+        <h3>Currency Converter</h3>
+      </a>
+      <a class="card" href="Dark%20Light%20Mode/index.html">
+        <span class="emoji">🌙</span>
+        <h3>Dark / Light Mode</h3>
+      </a>
+      <a class="card" href="Disable%20Copy%20Paste/index.html">
+        <span class="emoji">🚫</span>
+        <h3>Disable Copy Paste</h3>
+      </a>
+      <a class="card" href="Github%20Search/index.html">
+        <span class="emoji">🐙</span>
+        <h3>Github Search</h3>
+      </a>
+      <a class="card" href="Guess%20Number/index.html">
+        <span class="emoji">🎲</span>
+        <h3>Guess the Number</h3>
+      </a>
+      <a class="card" href="Image-Gallery/index.html">
+        <span class="emoji">🖼️</span>
+        <h3>Image Gallery</h3>
+      </a>
+      <a class="card" href="Memory%20Game/index.html">
+        <span class="emoji">🎮</span>
+        <h3>Memory Game</h3>
+      </a>
+      <a class="card" href="Notes%20App/index.html">
+        <span class="emoji">📝</span>
+        <h3>Notes App</h3>
+      </a>
+      <a class="card" href="Password%20Generator/index.html">
+        <span class="emoji">🔑</span>
+        <h3>Password Generator</h3>
+      </a>
+      <a class="card" href="Password%20Strength/index.html">
+        <span class="emoji">🔒</span>
+        <h3>Password Strength</h3>
+      </a>
+      <a class="card" href="Popup/index.html">
+        <span class="emoji">💬</span>
+        <h3>Popup</h3>
+      </a>
+      <a class="card" href="PreLoader/index.html">
+        <span class="emoji">⏳</span>
+        <h3>PreLoader</h3>
+      </a>
+      <a class="card" href="QRcode/index.html">
+        <span class="emoji">📷</span>
+        <h3>QR Code Generator</h3>
+      </a>
+      <a class="card" href="Random%20Quote/index.html">
+        <span class="emoji">💬</span>
+        <h3>Random Quote</h3>
+      </a>
+      <a class="card" href="Random%20Quote%20API/index.html">
+        <span class="emoji">🌐</span>
+        <h3>Random Quote API</h3>
+      </a>
+      <a class="card" href="Rating/index.html">
+        <span class="emoji">⭐</span>
+        <h3>Rating</h3>
+      </a>
+      <a class="card" href="Rock-Paper-Scissor/index.html">
+        <span class="emoji">✂️</span>
+        <h3>Rock Paper Scissors</h3>
+      </a>
+      <a class="card" href="Side%20Navbar/index.html">
+        <span class="emoji">🗂️</span>
+        <h3>Side Navbar</h3>
+      </a>
+      <a class="card" href="StopWatch/index.html">
+        <span class="emoji">⏱️</span>
+        <h3>Stopwatch</h3>
+      </a>
+      <a class="card" href="Switch%20Tabs/index.html">
+        <span class="emoji">🔀</span>
+        <h3>Switch Tabs</h3>
+      </a>
+      <a class="card" href="Tic%20Tac%20Toe/index.html">
+        <span class="emoji">❌</span>
+        <h3>Tic Tac Toe</h3>
+      </a>
+      <a class="card" href="To-Do%20List/index.html">
+        <span class="emoji">✅</span>
+        <h3>To-Do List</h3>
+      </a>
+      <a class="card" href="Toggle%20Button/index.html">
+        <span class="emoji">🔘</span>
+        <h3>Toggle Button</h3>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    Pages designed by Pradeep with the help of Claude ✨ &nbsp;·&nbsp;
+    <a href="https://github.com/pradeep4ref/JavaScript-Projects-for-Beginners" target="_blank" rel="noopener">View on GitHub</a>
+  </footer>
+
+</body>
+</html>
