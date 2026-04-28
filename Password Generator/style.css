@@ -1,12 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom right, #1a1a1a, #1f1f1f);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
   }
   
   .container {
