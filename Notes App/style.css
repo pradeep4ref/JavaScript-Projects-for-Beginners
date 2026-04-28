@@ -5,10 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to top, rgb(249, 64, 234), rgb(114, 1, 114), black);
     height: 150vh;
-    background-repeat: no-repeat;
-    color: white;
     font-weight: bolder;
 }
 
