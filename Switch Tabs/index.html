@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tab Change Detection</title>
+    <link rel="stylesheet" href="../theme.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
     <script>
         document.addEventListener('visibilitychange', function() {
             if (document.visibilityState === 'hidden') {
@@ -20,6 +22,10 @@
     </script>
 </head>
 <body>
+  <nav class="site-nav">
+    <a href="../index.html"><i class="ph ph-arrow-left"></i> All Projects</a>
+    <span class="site-title">⚡ JS Projects</span>
+  </nav>
     <p>Try switching tabs or switching to another browser/application to see the alert messages.</p>
 </body>
 </html>
