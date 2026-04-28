@@ -41,7 +41,7 @@ body {
   transition: color 0.15s;
 }
 
-.site-nav a:hover { color: #fff; }
+.site-nav a:hover { color: var(--text-primary); }
 
 .site-nav .site-title {
   color: #fff;
