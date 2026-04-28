@@ -1,12 +1,9 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
   }
   
   .card {
