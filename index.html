@@ -4,15 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript Projects for Beginners</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="theme.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #111827;
-      font-family: 'Space Grotesk', sans-serif;
       color: #e5e7eb;
       min-height: 100vh;
       display: flex;
@@ -85,9 +82,10 @@
       box-shadow: 0 6px 24px rgba(99, 102, 241, 0.25);
     }
 
-    .card .emoji {
+    .card i {
       font-size: 2.25rem;
       line-height: 1;
+      color: var(--text-accent);
     }
 
     .card h3 {
@@ -126,107 +124,107 @@
   <main>
     <div class="grid">
       <a class="card" href="AJAX%20Project/Ajax.html">
-        <span class="emoji">🌐</span>
+        <i class="ph ph-wifi-high"></i>
         <h3>AJAX Project</h3>
       </a>
       <a class="card" href="BMI/index.html">
-        <span class="emoji">💪</span>
+        <i class="ph ph-person-simple-run"></i>
         <h3>BMI Calculator</h3>
       </a>
       <a class="card" href="Calculator/index.html">
-        <span class="emoji">🧮</span>
+        <i class="ph ph-calculator"></i>
         <h3>Calculator</h3>
       </a>
       <a class="card" href="Currency%20Converter/index.html">
-        <span class="emoji">💱</span>
+        <i class="ph ph-currency-circle-dollar"></i>
         <h3>Currency Converter</h3>
       </a>
       <a class="card" href="Dark%20Light%20Mode/index.html">
-        <span class="emoji">🌙</span>
+        <i class="ph ph-moon-stars"></i>
         <h3>Dark / Light Mode</h3>
       </a>
       <a class="card" href="Disable%20Copy%20Paste/index.html">
-        <span class="emoji">🚫</span>
+        <i class="ph ph-prohibit"></i>
         <h3>Disable Copy Paste</h3>
       </a>
       <a class="card" href="Github%20Search/index.html">
-        <span class="emoji">🐙</span>
+        <i class="ph ph-github-logo"></i>
         <h3>Github Search</h3>
       </a>
       <a class="card" href="Guess%20Number/index.html">
-        <span class="emoji">🎲</span>
+        <i class="ph ph-dice-five"></i>
         <h3>Guess the Number</h3>
       </a>
       <a class="card" href="Image-Gallery/index.html">
-        <span class="emoji">🖼️</span>
+        <i class="ph ph-images"></i>
         <h3>Image Gallery</h3>
       </a>
       <a class="card" href="Memory%20Game/index.html">
-        <span class="emoji">🎮</span>
+        <i class="ph ph-brain"></i>
         <h3>Memory Game</h3>
       </a>
       <a class="card" href="Notes%20App/index.html">
-        <span class="emoji">📝</span>
+        <i class="ph ph-note-pencil"></i>
         <h3>Notes App</h3>
       </a>
       <a class="card" href="Password%20Generator/index.html">
-        <span class="emoji">🔑</span>
+        <i class="ph ph-key"></i>
         <h3>Password Generator</h3>
       </a>
       <a class="card" href="Password%20Strength/index.html">
-        <span class="emoji">🔒</span>
+        <i class="ph ph-lock-key"></i>
         <h3>Password Strength</h3>
       </a>
       <a class="card" href="Popup/index.html">
-        <span class="emoji">💬</span>
+        <i class="ph ph-bell-ringing"></i>
         <h3>Popup</h3>
       </a>
       <a class="card" href="PreLoader/index.html">
-        <span class="emoji">⏳</span>
+        <i class="ph ph-spinner-gap"></i>
         <h3>PreLoader</h3>
       </a>
       <a class="card" href="QRcode/index.html">
-        <span class="emoji">📷</span>
+        <i class="ph ph-qr-code"></i>
         <h3>QR Code Generator</h3>
       </a>
       <a class="card" href="Random%20Quote/index.html">
-        <span class="emoji">💬</span>
+        <i class="ph ph-quotes"></i>
         <h3>Random Quote</h3>
       </a>
       <a class="card" href="Random%20Quote%20API/index.html">
-        <span class="emoji">🌐</span>
+        <i class="ph ph-cloud-arrow-down"></i>
         <h3>Random Quote API</h3>
       </a>
       <a class="card" href="Rating/index.html">
-        <span class="emoji">⭐</span>
+        <i class="ph ph-star"></i>
         <h3>Rating</h3>
       </a>
       <a class="card" href="Rock-Paper-Scissor/index.html">
-        <span class="emoji">✂️</span>
+        <i class="ph ph-hand-fist"></i>
         <h3>Rock Paper Scissors</h3>
       </a>
       <a class="card" href="Side%20Navbar/index.html">
-        <span class="emoji">🗂️</span>
+        <i class="ph ph-sidebar-simple"></i>
         <h3>Side Navbar</h3>
       </a>
       <a class="card" href="StopWatch/index.html">
-        <span class="emoji">⏱️</span>
+        <i class="ph ph-timer"></i>
         <h3>Stopwatch</h3>
       </a>
       <a class="card" href="Switch%20Tabs/index.html">
-        <span class="emoji">🔀</span>
+        <i class="ph ph-tabs"></i>
         <h3>Switch Tabs</h3>
       </a>
       <a class="card" href="Tic%20Tac%20Toe/index.html">
-        <span class="emoji">❌</span>
+        <i class="ph ph-x-square"></i>
         <h3>Tic Tac Toe</h3>
       </a>
       <a class="card" href="To-Do%20List/index.html">
-        <span class="emoji">✅</span>
+        <i class="ph ph-check-square"></i>
         <h3>To-Do List</h3>
       </a>
       <a class="card" href="Toggle%20Button/index.html">
-        <span class="emoji">🔘</span>
+        <i class="ph ph-toggle-right"></i>
         <h3>Toggle Button</h3>
       </a>
     </div>
